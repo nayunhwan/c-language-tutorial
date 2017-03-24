@@ -4,6 +4,8 @@
 
 본 문서에서는 통합 개발 환경\(IDE, Integrated Development Environment\) e.g. Visual Studio, Clio 등, 을 사용하지 않고 GCC 컴파일러와 텍스트 에디터\(Sublime Text\)를 사용하여 개발하는 것을 기본으로 합니다.
 
+본 문서는 Mac OS를 기반으로하여 작성되었습니다. 따라서 Terminal 명령이나, 그래픽 인터페이스는 Windows와 다를 수 있습니다.
+
 ### Download
 
 **Sublime Text: **[**https://www.sublimetext.com/**](https://www.sublimetext.com/)![](/assets/sublime.png)
@@ -25,4 +27,24 @@ C언어로 Syntax Highlight를 하는 방법에는 여러가지 방법이 있습
 ### Compile
 
 다음으로는 컴파일을 하는 방법을 배워보도록 하겠습니다. Sublime Text는 컴파일 단축키를 지원합니다. Mac의 경우에는 \(Cmd + B\), Windows의 경우에는 \(Ctrl + B\)를 누르면 자동으로 컴파일이 이뤄지고, 컴파일 결과 값이 콘솔창에 출력됩니다.![](/assets/compile.png)만약 컴파일 상에 오류가 있다면, 아래와 같이 오류가 있는 부분을 표시해 줍니다.![](/assets/compile_error.png)정상적으로 컴파일이 완료 되었을 경우, .c파일의 이름과 동일한 실행파일이 생성되게 됩니다.![](/assets/compile_done.png)
+
+### Execute
+
+이제 컴파일까지 마쳤으니, 파일을 실행시켜 보도록 하겠습니다. 기본적으로 .c로 컴파일된 파일은 일반적으로 실행시킬 수 없고 터미널 상에서 실행시킬 수 있습니다.
+
+터미널에서 실행시키기 위해서는 몇가지 터미널 명령어를 알아야 합니다.
+
+**Mac**
+
+```
+$ ls
+```
+
+> ls는 Mac OS와 Linux에서만 사용할 수 있는 명령어입니다. Windows에서는 없는 명령어이며, 비슷한 역할을 하는 명령어로는 dir 명령어가 있습니다.
+
+ls 명령어는 List의 약자압니다. ls를 입력하면, 현재 디렉토리 상에 있는 파일들을 보여줍니다.
+
+![](/assets/ls.png)
+
+
 
