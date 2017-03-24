@@ -17,7 +17,7 @@ C언어로 Syntax Highlight를 하는 방법에는 여러가지 방법이 있습
 위 사진은 Syntax Highlight가 적용되지 않은 상태입니다. 일반 메모장과 같은 상태로, C언어 문법에 맞지 않게 아무런 강조표시가 없습니다.
 
 1. **확장자를 .c 파일로 저장하기**![](/assets/savetocfile.png)확장자를 .c파일로 저장한 상태입니다.  첫 번째 사진과는 다르게 C언어 문법에 맞춰서 색깔로 구문이 강조된 것을 확인 할 수 있습니다.
-2. **Command Palette이용하기**![](/assets/command.png)Command Palette는 
+2. **Command Palette이용하기**![](/assets/command.png)Command Palette는 Mac에서는 \(Cmd + Shift + P\), Windows에서는 \(Ctrl + Shift + P\) 단축키로 실행할 수 있습니다. Command Palette에서 ssc \(Set Syntax: C\)의 약자를 입력한 뒤, 선택을 해주면 C언어로 구문강조가 된 것을 확인 할 수 있습니다.
 
 
 
