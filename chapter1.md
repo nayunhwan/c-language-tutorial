@@ -24,5 +24,5 @@ C언어로 Syntax Highlight를 하는 방법에는 여러가지 방법이 있습
 
 ### Compile
 
-다음으로는 컴파일을 하는 방법을 배워보도록 하겠습니다. Sublime Text는 컴파일 단축키를 지원합니다. Mac의 경우에는 \(Cmd + B\), Windows의 경우에는 \(Ctrl + B\)를 누르면 자동으로 컴파일이 이뤄지고, 컴파일 결과 값이 콘솔창에 출력됩니다.![](/assets/compile.png)
+다음으로는 컴파일을 하는 방법을 배워보도록 하겠습니다. Sublime Text는 컴파일 단축키를 지원합니다. Mac의 경우에는 \(Cmd + B\), Windows의 경우에는 \(Ctrl + B\)를 누르면 자동으로 컴파일이 이뤄지고, 컴파일 결과 값이 콘솔창에 출력됩니다.![](/assets/compile.png)만약 컴파일 상에 오류가 있다면, 아래와 같이 오류가 있는 부분을 표시해 줍니다.![](/assets/compile_error.png)정상적으로 컴파일이 완료 되었을 경우, .c파일의 이름과 동일한 실행파일이 생성되게 됩니다.![](/assets/compile_done.png)
 
