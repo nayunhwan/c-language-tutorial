@@ -46,5 +46,7 @@ ls 명령어는 List의 약자압니다. ls를 입력하면, 현재 디렉토리
 
 ![](/assets/ls.png)
 
-
-
+```
+$ cd 이동할_디렉토리_이름
+```
+`cd` 명령어는 Change Directory의 약자입니다. 예를 들어서, cd new_folder 라고 입력하면, new_folder로 이동합니다.
