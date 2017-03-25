@@ -72,3 +72,29 @@ $ git clone github_repository_url
 ![](/assets/chapter2/git.png)
 
 이렇게 하면 해당 url에 있는 Repository의 파일들이 로컬로 복사됩니다.
+
+### Github에 로컬 파일들 업로드하기
+로컬 환경에 있는 것을 원격 저장소(e.g. Github)로 업로드 하는 것을 `push` 한다고 합니다. 그리고 `push` 이전에는 어떤 파일들의 변화를 추가 할지를 명령하는 `add`, 그리고 현재 버전의 기록을 남기는 작업인 `commit`명령어가 있습니다.
+
+이 명령어들의 작업 순서대로 나열해보면, `add` -> `commit` -> `push` 순으로 이뤄지게 됩니다.
+
+예를 들어서 Readme.md 파일을 수정한다고 가정합니다.
+
+![](/assets/chapter2/before.png)
+
+![](/assets/chapter2/after.png)
+
+위와 같이 수정 한 뒤,
+
+```
+$ git add .
+$ git commit -m "First Commit Message"
+$ git push origin master
+```
+> add 뒤에 . (온점)은 해당 디렉토리의 하위 디렉토리 파일들까지 모두 변경사항을 감지해서 추가하겠다는 이야기 입니다. 만약, 하나의 파일의 변경사항만 추가하고 싶다면 add 뒤에 파일 이름을 붙여주면 됩니다.
+
+![](/assets/chapter2/push.png)
+
+이렇게 업로드가 정상적으로 되면, 성공한 것입니다. 이제 `Github`의 Repository로 돌아가면, 수정된 내역이 제대로 반영된 것을 확인 할 수 있습니다.
+
+![](/assets/chapter2/result.png)
