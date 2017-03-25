@@ -1,5 +1,4 @@
 # Summary
 
 * [Introduction](README.md)
-* [Setup Development Environment](chapter1.md)
-
+* [How to use Sublime Text](chapter1.md)
