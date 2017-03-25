@@ -21,6 +21,21 @@ Github Link: <https://github.com>
 
 ![](/assets/chapter2/new_repo.png)
 
+이미지 우측 상단에 보면 `+` 기호의 버튼이 있는데, 그 버튼을 클릭한 뒤 `New Repository`까지 클릭합니다.
+
+![](/assets/chapter2/create_repo.png)
+
+`Repository Name`에는 해당 프로젝트 제목을 기입합니다. 이 프로젝트 제목이 나중에는 이 `Repository`로 접속하는 URL로 사용되니, 깔끔한 제목으로 선정해주는 편이 좋습니다. (추후에 Rename 가능) Description에는 간단한 설명을 추가적으로 작성합니다.
+
+`Github`는 public Repository에 대해서는 얼마든지 무료지만, 자신만 보고싶은 private Repository는 과금을 해야합니다. 우리는 여기서 public한 Repository로 체크를 한 뒤, **Initialize this repository with a README** 체크박스에 체크를 해주시기 바랍니다.
+
+> README는 나중에 만들어도 되지만, README를 기본적으로 생성할 경우에는 바로 Repository를 Clone할 수 있어 간편합니다.
+
+![](/assets/chapter2/test.png)
+
+자 첫 Repository가 완성되었습니다. 이제 이 Repository를 로컬 환경과 온라인 환경을 연결하는 방법을 배워보도록 하겠습니다.
+
+
 ## Install git
 
 **Mac OS:** 기본적으로 설치되어 있음
