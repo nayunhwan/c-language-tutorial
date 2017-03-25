@@ -47,6 +47,18 @@ $ ls
 
 `ls` 명령어는 List의 약자압니다. ls를 입력하면, 현재 디렉토리 상에 있는 파일들을 보여줍니다.
 
+
+##### mkdir (Make Directory)
+
+```
+$ mkdir 생성할_디렉토리_이름
+```
+
+![](/assets/chapter1/cd.png)
+
+`mkdir` 명령어는 Make Directory의 약자입니다. mkdir명령어를 이용하여 새로운 폴더를 생성할 수 있습니다.
+
+
 ##### cd (Change Directory)
 
 ```

@@ -7,6 +7,7 @@
 ## Install Git
 
 **Mac OS:** 기본적으로 설치되어 있음
+
 **Windows:** <https://git-for-windows.github.io/>
 
 기본적으로 `git`은 `Mac OS`환경에서는 기본적으로 설치되어있으며, `Windows`환경에서는 위의 링크를 통하여 설치하도록 합니다.
