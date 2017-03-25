@@ -36,9 +36,9 @@ Github Link: <https://github.com>
 자 첫 Repository가 완성되었습니다. 이제 이 Repository를 로컬 환경과 온라인 환경을 연결하는 방법을 배워보도록 하겠습니다.
 
 
-## Install git
+## Install git :: git 설치하기
 
-**Mac OS:** 기본적으로 설치되어 있음
+**Mac OS:** 기본적으로 설치 되어 있음
 
 **Windows:** <https://git-for-windows.github.io/>
 
@@ -50,8 +50,8 @@ $ git
 
 ![](/assets/chapter2/git.png)
 
-### git conifg 사용자 정보 설정
-`git`을 설치하고나서 가장 먼저 해야할 일은 사용자 정보를 설정하는 일 입니다. 이 정보는 `commit`을 할 때 이 정보를 사용한다.
+### git conifg :: 사용자 정보 설정
+`git`을 설치하고나서 가장 먼저 해야할 일은 사용자 정보를 설정하는 일 입니다. 이 정보는 `commit`을 할 때 사용됩니다.
 
 > Commit에 대한 이야기는 밑에서 다룰 예정이니, 너무 겁먹지는 말자.
 
@@ -60,4 +60,15 @@ $ git config --global user.name "nayunhwan"
 $ git config --global user.email youremail@example.com
 ```
 
-위와 같이 앞서 만들어놓은 `Github`계정 정보와 동일하게 일치시켜주면 된다.
+위와 같이 앞서 만들어놓은 `Github`계정 정보와 동일하게 일치시켜주면 됩니다.
+
+### git clone :: Github으로 부터 로컬로 복사하기
+아까 위에서 `Github`를 통해 만든 Repository를 `clone` 해보도록 하겠습니다. clone하는 방법은 매우 간단합니다.
+
+```
+$ git clone github_repository_url
+```
+
+![](/assets/chapter2/git.png)
+
+이렇게 하면 해당 url에 있는 Repository의 파일들이 로컬로 복사됩니다.
