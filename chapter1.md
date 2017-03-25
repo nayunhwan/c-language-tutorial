@@ -37,7 +37,7 @@ C언어로 Syntax Highlight를 하는 방법에는 여러가지 방법이 있습
 
 **Mac**
 
-#### ls (List)
+##### ls (List)
 
 ```
 $ ls
@@ -49,7 +49,7 @@ $ ls
 
 ls 명령어는 List의 약자압니다. ls를 입력하면, 현재 디렉토리 상에 있는 파일들을 보여줍니다.
 
-#### cd (Change Directory)
+##### cd (Change Directory)
 
 ```
 $ cd 이동할_디렉토리_이름
@@ -58,3 +58,13 @@ $ cd 이동할_디렉토리_이름
 ![](/assets/cd.png)
 
 `cd` 명령어는 Change Directory의 약자입니다. 예를 들어서, cd new_folder 라고 입력하면, new_folder로 이동합니다.
+
+##### ./
+
+```
+$ ./실행할_파일_이름
+```
+
+![](/assets/execute.png)
+
+`./` 명령어는 파일을 실행시키는 명령어입니다. 예를 들어서 ./test 라고 입력하면, test파일이 실행됩니다.
