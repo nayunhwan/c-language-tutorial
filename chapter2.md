@@ -17,3 +17,13 @@ $ git
 `git`이 정상적으로 설치되었다면, 터미널상에 `git`이라고 입력했을 때 `git`에 대한 기본적인 명령어들의 리스트가 나옵니다.
 
 ![](/assets/chapter2/git.png)
+
+### 사용자 정보 설정
+`git`을 설치하고나서 가장 먼저 해야할 일은 사용자 정보를 설정하는 일 입니다. 이 정보는 `commit`을 할 때 이 정보를 사용한다.
+
+> Commit에 대한 이야기는 밑에서 다룰 예정이니 지금부터 너무 겁먹지 말자
+
+```
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+```

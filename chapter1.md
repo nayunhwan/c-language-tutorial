@@ -40,10 +40,11 @@ C언어로 Syntax Highlight를 하는 방법에는 여러가지 방법이 있습
 ```
 $ ls
 ```
-
-![](/assets/chapter1/ls.png)
+> 맨 앞의 $ 표시는 이 코드가 터미널 쉘 상에 입력해야 한다는 뜻입니다.
 
 > ls는 Mac OS와 Linux에서만 사용할 수 있는 명령어입니다. Windows에서는 없는 명령어이며, 비슷한 역할을 하는 명령어로는 dir 명령어가 있습니다.
+
+![](/assets/chapter1/ls.png)
 
 `ls` 명령어는 List의 약자압니다. ls를 입력하면, 현재 디렉토리 상에 있는 파일들을 보여줍니다.
 
