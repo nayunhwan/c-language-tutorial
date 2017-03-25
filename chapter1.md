@@ -1,6 +1,6 @@
 # How to use Sublime Text
 
-이번 챕터에서는 C언어를 사용하기 위한 `Sublime Text`에 대한 기본적인 사용 방법을 배웁니다.
+이번 챕터에서는 C언어를 사용하기 위한 `Sublime Text`에 대한 기본적인 사용 방법에 대해서 다룹니다.
 
 본 문서에서는 통합 개발 환경\(IDE, Integrated Development Environment\) e.g. Visual Studio, Clio 등, 을 사용하지 않고 GCC 컴파일러와 텍스트 에디터\(Sublime Text\)를 사용하여 개발하는 것을 기본으로 합니다.
 
@@ -21,7 +21,7 @@ C언어로 Syntax Highlight를 하는 방법에는 여러가지 방법이 있습
 위 사진은 Syntax Highlight가 적용되지 않은 상태입니다. 일반 메모장과 같은 상태로, C언어 문법에 맞지 않게 아무런 강조표시가 없습니다.
 
 1. **확장자를 .c 파일로 저장하기**![](/assets/chapter1/savetocfile.png)확장자를 .c파일로 저장한 상태입니다.  첫 번째 사진과는 다르게 C언어 문법에 맞춰서 색깔로 구문이 강조된 것을 확인 할 수 있습니다.
-2. **Command Palette이용하기**![](/assets/chapter1/command.png)Command Palette는 Mac에서는 \(Cmd + Shift + P\), Windows에서는 \(Ctrl + Shift + P\) 단축키로 실행할 수 있습니다. Command Palette에서 ssc \(Set Syntax: C\)의 약자를 입력한 뒤, 선택을 해주면 C언어로 구문강조가 된 것을 확인 할 수 있습니다.
+2. **Command Palette이용하기**![](/assets/chapter1/command.png)Command Palette는 Mac에서는 \(`Cmd` + `Shift` + `P`\), Windows에서는 \(`Ctrl` + `Shift` + `P`\) 단축키로 실행할 수 있습니다. Command Palette에서 `ssc` \(Set Syntax: C\)의 약자를 입력한 뒤, 선택을 해주면 C언어로 구문강조가 된 것을 확인 할 수 있습니다.
 3. **언어 선택 창에서 선택하기**![](/assets/chapter1/select.png)마지막 방법은 언어 선택 창을 이용하는 방법입니다. 우측 하단에 Plain Text라고 써있는 부분 \(이미지 상에서는 C\)을 클릭하면 강조 구문을 할 수 있는 언어들의 리스트가 나오게 됩니다. 리스트 중 C를 선택하게 되면, C언어 맞춰서 구문 강조가 됩니다.
 
 
@@ -34,8 +34,6 @@ C언어로 Syntax Highlight를 하는 방법에는 여러가지 방법이 있습
 이제 컴파일까지 마쳤으니, 파일을 실행시켜 보도록 하겠습니다. 기본적으로 .c로 컴파일된 파일은 일반적으로 실행시킬 수 없고 터미널 상에서 실행시킬 수 있습니다.
 
 터미널에서 실행시키기 위해서는 몇가지 터미널 명령어를 알아야 합니다.
-
-**Mac**
 
 ##### ls (List)
 
