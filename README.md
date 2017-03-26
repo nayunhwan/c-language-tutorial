@@ -5,3 +5,10 @@
 본 문서에서는 소프트웨어 학부 신입생 및 C언어를 처음 접하는 사람들에게 C언어 프로그래밍 기초 지식과 [acmicpc.net](/acmicpc.net)\(이하 백준 온라인 저지\)의 문제 풀이, Git과 Github사용법, GCC & Terminal 가이드를 다룹니다.
 
 문의: 한양대학교 ERICA 소프트웨어학부 나윤환 (nayunhwan.dev@gmail.com)
+
+## Index
+
+* [Introduction](README.md)
+* [How to use Sublime Text](chapter1.md)
+* [How to use Git and Github](chapter2.md)
+* [C언어 기본적인 문법](chapter3.md)
