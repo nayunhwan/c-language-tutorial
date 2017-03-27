@@ -21,7 +21,7 @@ int main(){
 일단 기본적으로 C언어의 가장 기본적인 형태입니다. `#include` 문법을 통해서 `stdio.h` 헤더파일을 import합니다.
 > 여기서 입문자들이 가장 많이 하는 실수는 stdio를 studio라고 적는 것 입니다. stdio는 Standard Input/Output의 약자입니다.
 
-`stdio.h`에서는 C언어의 기본적인 Input/Output 함수들이 담겨있는 라이브러리입니다. 이 표준 라이브러리에는 기본적으로 `printf`와 `scanf`함수를 포함하고 있기 때문에, `stdio.h`를 꼭 import시켜줘야만 `printf`와 `scanf`함수를 사용할 수 있습니다.
+`stdio.h`에서는 C언어의 기본적인 Input/Output 함수들이 담겨있는 라이브러리입니다. 이 표준 라이브러리에는 기본적으로 `printf`와 `scanf`함수를 포함하고 있기 때문에, `stdio.h`를 꼭 import 시켜줘야만 `printf`와 `scanf`함수를 사용할 수 있습니다.
 
 ## C언어의 자료형
 
