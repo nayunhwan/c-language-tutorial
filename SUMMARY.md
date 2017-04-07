@@ -6,4 +6,4 @@
 * [C언어 기본적인 문법](chapter3.md)
 * [출력](chapter4.md)
 * [1주차 문제 해설 :: C언어 입문](chapter5.md)
-* [2주차 문제 해설 :: 자료형, 연산자, 조건문, while문](chapter5.md)
+* [2주차 문제 해설 :: 자료형, 연산자, 조건문, while문](chapter6.md)
