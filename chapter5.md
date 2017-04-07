@@ -44,3 +44,20 @@ int main(){
 ```
 
 Hello World 문제와 다른 점이 있다면, 이번 문제에서는 scanf 함수, 즉 입력함수가 추가되었다는 점입니다. scanf에서는 변수의 `주소값`을 넣어줘야한다는 점을 꼭 기억하시길 바랍니다.
+
+
+### A - B
+A - B <https://www.acmicpc.net/problem/1001>
+
+이번에는 두 정수 A와 B를 받아서 결과값으로 A-B 값을 출력하는 문제입니다. A + B 문제와 동일하지만 +가 -로만 바뀌었습니다.
+
+```c
+#include <stdio.h>
+
+int main(){
+  int a, b;
+  scanf("%d %d", &a, &b);
+  printf("%d\n", a-b);
+  return 0;
+}
+```
