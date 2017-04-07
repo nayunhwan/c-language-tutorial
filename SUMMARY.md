@@ -5,3 +5,4 @@
 * [How to use Git and Github](chapter2.md)
 * [C언어 기본적인 문법](chapter3.md)
 * [출력](chapter4.md)
+* [1주차 문제 해설](chapter5.md)
