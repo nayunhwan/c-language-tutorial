@@ -3,14 +3,14 @@
 
 이번 문서에서 다룰 문제리스트는 다음과 같습니다.
 
-* Hello World <https://www.acmicpc.net/problem/2557>
-* A + B <https://www.acmicpc.net/problem/1000>
-* A - B <https://www.acmicpc.net/problem/1001>
-* 오늘 날짜 <https://www.acmicpc.net/problem/10699>
-* 고양이 <https://www.acmicpc.net/problem/10171>
+* **Hello World** <https://www.acmicpc.net/problem/2557>
+* **A + B** <https://www.acmicpc.net/problem/1000>
+* **A - B** <https://www.acmicpc.net/problem/1001>
+* **오늘 날짜** <https://www.acmicpc.net/problem/10699>
+* **고양이** <https://www.acmicpc.net/problem/10171>
 
 ### Hello World
-Hello World <https://www.acmicpc.net/problem/2557>
+**Hello World** <https://www.acmicpc.net/problem/2557>
 
 가장 기본적인 `Hello World!`를 출력함수를 통해서 출력하는 문제입니다.
 
@@ -28,7 +28,7 @@ int main(){
 C언어의 기본적인 문법, Main 함수의 이해, Stdio.h 헤더파일 Import, 출력함수 printf에 대해 알고 있었다면 무리없이 쉽게 풀 수 있는 문제였습니다.
 
 ### A + B
-A + B <https://www.acmicpc.net/problem/1000>
+**A + B** <https://www.acmicpc.net/problem/1000>
 
 이번에는 두 정수 A와 B를 받아서 결과값으로 A+B 값을 출력하는 문제입니다. 이번 문제도 C언어의 기본적인 문법을 알고 있다면, 무리없이 쉽게 풀 수 있는 문제입니다.
 
@@ -47,7 +47,7 @@ Hello World 문제와 다른 점이 있다면, 이번 문제에서는 scanf 함�
 
 
 ### A - B
-A - B <https://www.acmicpc.net/problem/1001>
+**A - B** <https://www.acmicpc.net/problem/1001>
 
 이번에는 두 정수 A와 B를 받아서 결과값으로 A-B 값을 출력하는 문제입니다. A + B 문제와 동일하지만 +가 -로만 바뀌었습니다.
 
@@ -63,7 +63,7 @@ int main(){
 ```
 
 ### 오늘 날짜
-오늘 날짜 <https://www.acmicpc.net/problem/10699>
+**오늘 날짜** <https://www.acmicpc.net/problem/10699>
 
 이번에는 현재 날짜를 기준으로 오늘 날짜를 YYYY-MM-DD 형식으로 출력하는 문제입니다. ex)2017-04-07 이 문제도 printf 함수의 사용법만 알고있다면 쉽게 풀 수 있는 문제입니다.
 
@@ -80,7 +80,7 @@ int main(){
 
 
 ### 고양이
-고양이 <https://www.acmicpc.net/problem/10171>
+**고양이** <https://www.acmicpc.net/problem/10171>
 
 이 문제는 이스케이프 문자에 대해 이해가 필요한 부분입니다. `printf`함수에서 `\`(백슬래시)를 써주기 위해서는 `\\` 이와 같이 백슬래시를 두 번 써줘야 한 개의 백슬래시 기호가 나오게 됩니다. (모든 이스케이프 문자는 백슬래시 + 기호 로 이뤄져 있기 때문)
 
