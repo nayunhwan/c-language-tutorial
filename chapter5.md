@@ -9,7 +9,7 @@
 * 오늘 날짜 <https://www.acmicpc.net/problem/10699>
 * 고양이 <https://www.acmicpc.net/problem/10171>
 
-## Hello World
+### Hello World
 Hello World <https://www.acmicpc.net/problem/2557>
 
 가장 기본적인 `Hello World!`를 출력함수를 통해서 출력하는 문제입니다.
@@ -27,7 +27,7 @@ int main(){
 
 C언어의 기본적인 문법, Main 함수의 이해, Stdio.h 헤더파일 Import, 출력함수 printf에 대해 알고 있었다면 무리없이 쉽게 풀 수 있는 문제였습니다.
 
-## A + B
+### A + B
 A + B <https://www.acmicpc.net/problem/1000>
 
 이번에는 두 정수 A와 B를 받아서 결과값으로 A+B 값을 출력하는 문제입니다. 이번 문제도 C언어의 기본적인 문법을 알고 있다면, 무리없이 쉽게 풀 수 있는 문제입니다.
