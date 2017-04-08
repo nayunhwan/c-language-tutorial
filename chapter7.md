@@ -124,6 +124,51 @@ int main(){
 ## 수 정렬하기
 **수 정렬하기** <https://www.acmicpc.net/problem/2750>
 
+**알고리즘을 시각적으로 보여주는 사이트** <https://visualgo.net/>
+
+**거품 정렬 Wiki** <https://ko.wikipedia.org/wiki/%EA%B1%B0%ED%92%88_%EC%A0%95%EB%A0%AC>
+
 수 정렬 알고리즘은 앞으로 컴퓨터공학 및 알고리즘 문제를 푸는데 있어서 매우 중요합니다.
 
-우리는 `O(n^2^)`
+우리는 이번 문제에서는 시간복잡도가 `O(n^2)`으로, 상당히 느린 알고리즘이지만, 구현하기가 간단한 편에 속하는 `거품정렬` 알고리즘을 사용하여 이번 문제를 해결하도록 하겠습니다.
+
+거품정렬 알고리즘은 다음과 같습니다.
+
+```c
+for(int i = 0; i < n; i++){
+  for(int j = 0; j < n-1-i; j++){
+    if(arr[j] > arr[j+1]){
+      SWAP(arr[j], arr[j+1]);
+    }
+  }
+}
+```
+
+이 코드가 `거품정렬`의 가장 기본적인 형태입니다. `SWAP`은 따로 정의한 매크로로 `arr[j]`와 `arr[j+1]`의 값을 바꾼다는 `매크로`입니다.
+
+```c
+#include <stdio.h>
+#define SWAP(a,b) {int t = a; a = b; b = t;}
+
+int main(){
+	int n;
+	int input[1001];
+
+	scanf("%d", &n);
+
+	for(int i = 0; i < n; i++){
+		scanf("%d", &input[i]);
+	}
+
+	for(int i = 0; i < n; i++){
+		for(int j = 0; j < n-i-1; j++){
+			if(input[j] > input[j+1]) SWAP(input[j], input[j+1]);
+		}
+	}
+
+	for(int i = 0; i < n; i++) printf("%d\n", input[i]);
+	return 0;
+}
+```
+
+C언어에서 매크로는 `main`함수 이전에 `#define`이라는 명령어를 통해서 선언해 줄 수 있으며, `SWAP`의 내용은 파라미터를 `a`, `b`를 받은다음, 임의 `int`형 변수 `t`를 선언하고 `t`에 `a`값을 대입, `a`에 `b`값을 대입, `b`에 `t`값을 대입하여 결과적으로는 `a`와 `b`의 위치를 바꾸는 역할을 하는 매크로입니다. 함수를 통해서 구현을 해도 되지만, 좀 더 미려한 코드를 짜기 위해서 `매크로`의 사용법도 익혀주면 매우 좋습니다.
